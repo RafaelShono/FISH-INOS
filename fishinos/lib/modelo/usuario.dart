@@ -1,5 +1,5 @@
-import 'package:organicos/modelo/grupo_usuario.dart';
-import 'package:organicos/modelo/permissoes.dart';
+import 'package:fishinos/modelo/grupo_usuario.dart';
+import 'package:fishinos/modelo/permissoes.dart';
 
 class Usuario {
   int? id;

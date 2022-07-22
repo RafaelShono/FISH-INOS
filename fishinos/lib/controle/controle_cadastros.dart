@@ -1,5 +1,5 @@
-import 'package:organicos/dao/dao.dart';
-import 'package:organicos/dao/dao_factory.dart';
+import 'package:fishinos/dao/dao.dart';
+import 'package:fishinos/dao/dao_factory.dart';
 import 'package:async/async.dart';
 
 class ControleCadastros<T> {

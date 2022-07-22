@@ -4,13 +4,13 @@ class Conexao {
   static MySqlConnection? _conexao;
 
   static Future<MySqlConnection> getConexao() async {
-    String databaseName = 'organicos_local';
+    String databaseName = 'fishinos';
     var _settings = ConnectionSettings(
         useSSL: false,
         host: 'localhost',
         port: 3306,
         user: 'root',
-        password: 'mysqlserverabc123*',
+        password: 'Admin123',
         db: databaseName);
 
     if (_conexao == null) {

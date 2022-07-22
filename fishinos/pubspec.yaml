@@ -27,6 +27,8 @@ environment:
 # the latest version available on pub.dev. To see which dependencies have newer
 # versions available, run `flutter pub outdated`.
 dependencies:
+  galileo_sqljocky5: ^3.0.0
+  intl: ^0.17.0
   flutter:
     sdk: flutter
 
@@ -34,6 +36,13 @@ dependencies:
   # The following adds the Cupertino Icons font to your application.
   # Use with the CupertinoIcons class for iOS style icons.
   cupertino_icons: ^1.0.2
+  postgres: ^2.4.5
+  flutter_multi_formatter: ^2.5.7
+  url_launcher: ^6.1.4
+  location: ^4.4.0
+  http: ^0.13.4
+  encrypt: ^5.0.1
+  uuid: ^3.0.6
 
 dev_dependencies:
   flutter_test:
